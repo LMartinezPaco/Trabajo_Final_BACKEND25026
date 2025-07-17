@@ -15,5 +15,11 @@ public class Producto {
     }
 
     public Long getId() {return id;}
-    public String 
+    public String getNombre() {return nombre;}
+    public double getPrecio() {return precio;}
+    public void setId(Long id) {this.id = id;}
+    public void setNombre(String nombre) {this.nombre = nombre;}
+    public void setPrecio(double precio) {this.precio = precio;}
+
+
 }
